@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: darkgray;
+}
+
+.pertama {
+  margin-top: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 8px;
+}
+.hehe {
+  background-color: lightblue;
+  margin-top: center;
+  padding: 2px;
+  color: white;
+  text-align: center;
+}
+.judul {
+  text-align: center;
+}
+nav a:hover {
+  color: red;
+}
+main {
+  width: 90%;
+  margin: auto;
+}
+.joker {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: on;
+}
+.saber {
+  display: flex;
+  flex-direction: colomn;
+}
+#beranda,
+#profile,
+#kompetensi,
+#kontak {
+  background-color: white;
+  padding: 50px;
+  margin-top: 25px;
+  text-align: center;
+}
+.kartu {
+  background-color: lightgreen;
+  padding: 100px;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+.daftarkompetensi {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.kartukompetensi {
+  flex: 1;
+  -width: 200px;
+  background-color: lightcyan;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  padding: 25px;
+  font-size: 20px;
+  margin-top: 450px;
+}
+.rapi {
+  margin-bottom: 3px;
+}
+
+.beranda {
+  background-color: white;
+  padding: 25px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.profile {
+  background-color: white;
+  padding: 50px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.kompetensi {
+  background-color: white;
+  padding: 50px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.kontak {
+  background-color: white;
+  padding: 50px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.gambar-halaman {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.rapikantin {
+  background-color: rgb(243, 245, 243);
+  padding: 100px;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+.rapidarksistem {
+  flex: 1;
+  -width: 200px;
+  background-color: lightcyan;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
